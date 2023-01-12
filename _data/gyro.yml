@@ -1,0 +1,14 @@
+- id: turn-coord
+  description: Turn Coordinator
+  target: turncoord
+  imagefolder: /resources/img/misc/instruments
+  images:
+  - name: gyro-turncoordinator.jpg
+    thumb: gyro-turncoordinator_tn.jpg
+    text:
+  - name: gyro-turncoordinator2.jpg
+    thumb: gyro-turncoordinator2_tn.jpg
+    text:
+  - name: gyro-turncoordinator3.jpg
+    thumb: gyro-turncoordinator3_tn.jpg
+    text:

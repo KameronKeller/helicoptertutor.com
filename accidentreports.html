@@ -1,0 +1,97 @@
+---
+layout: default
+title: Accident Reports at HelicopterTutor
+---
+<div class="container white_container">
+  <div class="row">
+    <div class="col-md-12">
+      <h1 class="text-center">Helicopter Accident Reports</h1>
+      <h4 class="text-center light_h4">Include in your presentations, lessons, and more.</h4>
+    </div>
+  </div>
+
+<h4>Reports Menu</h4>
+  <nav class="navbar navbar-default">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#accidentsnavbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <div id="accidentsnavbar" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+          {% for cat in site.data.accidents.accidentreports %}
+          <li><a href="#{{ cat.id }}">{{ cat.navbar }}</a></li>
+          {% endfor %}
+          <li><a href="#about">About this Data</a></li>
+      </ul><!-- /nav navbar-nav -->
+    </div><!--/.navbar-collapse -->
+  </div> <!-- /container -->
+</nav><!-- /page navigation -->
+
+  {% for cat in site.data.accidents.accidentreports %}
+    {% if forloop.last == true %}
+    <div class="row" id="{{ cat.id }}">
+      <div class="col-md-2"><h1 class="text-center">{{ cat.description }}</h1></div>
+      <div class="popup-gallery">
+        {% for image in cat.images %}
+        <div class="col-md-5">
+          <a href="{{ image.name }}" title="{{ image.text }}"><img class="thumb_padding img-responsive center-block acc_thumb_border" src="{{ cat.imagefolder }}/{{ image.thumb }}" alt="{{ cat.description }}"></a>
+        </div>
+        {% endfor %}
+      </div><!-- /popup-gallery -->
+    </div> <!-- /row -->
+    {% else %}
+    <div class="row" id="{{ cat.id }}">
+      <div class="col-md-2"><h1 class="text-center">{{ cat.description }}</h1></div>
+      <div class="popup-gallery">
+        {% for image in cat.images %}
+        <div class="col-md-5">
+          <a href="{{ image.name }}" title="{{ image.text }}"><img class="thumb_padding img-responsive center-block acc_thumb_border" src="{{ cat.imagefolder }}/{{ image.thumb }}" alt="{{ cat.description }}"></a>
+        </div>
+        {% endfor %}
+      </div><!-- /popup-gallery -->
+    </div><!-- /row -->
+    <hr>
+    {% endif %}
+  {% endfor %}
+
+<hr>
+  <div class="row" id="about">
+    <div class="col-md-12">
+      <h3>About this data:</h3>
+      <ul>
+        <li>Pulled from the NTSB (National Transportation Safety Board) database</li>
+        <li>Only includes accidents listed in the United States</li>
+        <li>Exclusively helicopter accidents</li>
+        <li>Data is comprised of over 11,400 helicopter accident reports</li>
+      </ul>
+    </div>
+  </div>
+
+</div><!-- /container -->
+
+<script type="text/javascript"> <!-- magnificPopup Gallery -->
+$('.popup-gallery').each(function () {
+  $(this).magnificPopup({
+    delegate: 'a',
+    type: 'image',
+    tLoading: 'Loading image #%curr%...',
+    mainClass: 'mfp-img-mobile',
+    gallery: {
+      enabled: true,
+      navigateByImgClick: true,
+      preload: [0,1] // Will preload 0 - before current, and 1 after the current image
+    },
+    image: {
+      tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
+      titleSrc: function(item) {
+        return item.el.attr('title');
+      }
+    },
+  });
+});
+</script><!-- /magnificPopup Gallery -->

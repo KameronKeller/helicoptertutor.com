@@ -1,0 +1,53 @@
+- id: enstrom-480b
+  description: Enstrom 480B
+  target: enstrom480b
+  imagefolder: /resources/img/enstrom_480b
+  images:
+  - name: 1.jpg
+    thumb: 1_tn.jpg
+    text:
+  - name: 2.jpg
+    thumb: 2_tn.jpg
+    text:
+  - name: 3.jpg
+    thumb: 3_tn.jpg
+    text:
+  - name: belts.jpg
+    thumb: belts_tn.jpg
+    text:
+  - name: belts2.jpg
+    thumb: belts2_tn.jpg
+    text:
+  - name: cockpit.jpg
+    thumb: cockpit_tn.jpg
+    text:
+  - name: flightcontrols.jpg
+    thumb: flightcontrols_tn.jpg
+    text:
+  - name: flightcontrols2.jpg
+    thumb: flightcontrols2_tn.jpg
+    text:
+  - name: horizontal.jpg
+    thumb: horizontal_tn.jpg
+    text:
+  - name: lower_belt.jpg
+    thumb: lower_belt_tn.jpg
+    text:
+  - name: rotorhub.jpg
+    thumb: rotorhub_tn.jpg
+    text:
+  - name: rotorhub2.jpg
+    thumb: rotorhub2_tn.jpg
+    text:
+  - name: rotorhub4.jpg
+    thumb: rotorhub4_tn.jpg
+    text:
+  - name: rotorhub5.jpg
+    thumb: rotorhub5_tn.jpg
+    text:
+  - name: tailrotor.jpg
+    thumb: tailrotor_tn.jpg
+    text:
+  - name: tailrotorgb.jpg
+    thumb: tailrotorgb_tn.jpg
+    text:

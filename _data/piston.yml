@@ -1,0 +1,17 @@
+- id: piston-comp
+  description: Piston Engine Components
+  target: pistoncomp
+  imagefolder: /resources/img/misc/powerplant
+  images:
+  - name: piston.jpg
+    thumb: piston_tn.jpg
+    text: Piston
+  - name: piston2.jpg
+    thumb: piston2_tn.jpg
+    text: Piston
+  - name: valve.jpg
+    thumb: valve_tn.jpg
+    text: Valve
+  - name: valve2.jpg
+    thumb: valve2_tn.jpg
+    text: Valve

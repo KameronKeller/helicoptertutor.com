@@ -1,0 +1,29 @@
+- id: static-altimeter
+  description: Altimeter
+  target: staticaltimeter
+  imagefolder: /resources/img/misc/instruments
+  images:
+  - name: pitot-altimeter.jpg
+    thumb: pitot-altimeter_tn.jpg
+    text:
+  - name: pitot-altimeter2.jpg
+    thumb: pitot-altimeter2_tn.jpg
+    text:
+  - name: pitot-altimeter3.jpg
+    thumb: pitot-altimeter3_tn.jpg
+    text:
+- id: static-vsi
+  description: VSI
+  target: staticvsi
+  imagefolder: /resources/img/misc/instruments
+  images:
+  - name: pitot-vsi.jpg
+    thumb: pitot-vsi_tn.jpg
+- id: static-transponder
+  description: Transponder
+  target: statictransponder
+  imagefolder: /resources/img/misc/instruments
+  images:
+  - name: pitot-transponderdigitizer.jpg
+    thumb: pitot-transponderdigitizer_tn.jpg
+    text: Transponder Digitizer

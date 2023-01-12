@@ -1,0 +1,11 @@
+- id: r66-powerplant
+  description: Powerplant
+  target: r66powerplant
+  imagefolder: /resources/img/r66
+  images:
+  - name: pr66powerplant.jpg
+    thumb: r66powerplant_tn.jpg
+    text:
+  - name: r66powerplant2.jpg
+    thumb: r66powerplant2_tn.jpg
+    text:

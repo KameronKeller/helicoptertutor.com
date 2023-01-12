@@ -1,0 +1,403 @@
+---
+layout: default
+title: Photos at HelicopterTutor
+---
+
+<div class="container white_container">
+  <nav class="navbar navbar-default">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#photonavbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <div id="photonavbar" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Aircraft<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#robinson">Robinson</a></li>
+              <li><a href="#enstrom">Enstrom</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Miscellaneous<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#powerplant">Powerplant</a></li>
+              <li><a href="#fltinstruments">Instruments</a>
+              </ul>
+            </li>
+      </ul><!-- /nav navbar-nav -->
+    </div><!--/.navbar-collapse -->
+  </div> <!-- /container -->
+</nav><!-- /page navigation -->
+<div class="row">
+  <div class="col-md-12 ">
+    <hr>
+    <h1 class="text-center" id="aircraft">Aircraft Photos</h1>
+    <hr>
+    <h2 id="robinson">Robinson <a href="#"><span class="to_the_top"><span class="glyphicon glyphicon-arrow-up"></span>(Top)</span></a></h2>
+    <!-- Nav tabs -->
+    <ul class="nav nav-tabs" role="tablist">
+      <li role="presentation" class="active"><a href="#r22-r66" aria-controls="home" role="tab" data-toggle="tab"></span>R22 | R44 | R66</a></li>
+      <!-- <li role="presentation"><a href="#__" aria-controls="profile" role="tab" data-toggle="tab">____</a></li> -->
+    </ul>
+    <!-- Tab panes -->
+    <div class="tab-content accident_tabs">
+      <div role="tabpanel" class="tab-pane active" id="r22-r66">
+        <div class="well tab-pane-heading">
+          <div class="row">
+            <div class="col-md-4">
+              <h2 class="text-center">R22</h2>
+              <ul class="li-circle">
+                {% for gallery in site.data.r22imggallery %}
+                <li><a href="#" data-toggle="modal" data-target=".{{ gallery.target }}">{{ gallery.description }}</a></li>
+                <div class="modal fade {{ gallery.target }}" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+                  <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                        <h4 class="modal-title text-center" id="myLargeModalLabel">{{ gallery.description }}</h4> </div>
+                        <div class="modal-body">
+                          <div class="popup-gallery">
+                            {% for image in gallery.images %}
+                            <a data-dismiss="modal" href="{{ gallery.imagefolder }}/{{ image.name }}" title="{{ image.text }}"><img class="thumb_padding" src="{{ gallery.imagefolder }}/{{ image.thumb }}" ></a>
+                            {% endfor %}
+                          </div><!-- /popup-gallery -->
+                        </div><!-- /modal-body -->
+                      </div><!-- /modal-content -->
+                    </div><!-- /modal-dialog -->
+                  </div><!-- /modal -->
+                  {% endfor %}
+                </ul>
+              </div><!-- /col-md-4 R22-->
+              <div class="col-md-4">
+                <h2 class="text-center">R44</h2>
+                <ul class="li-circle">
+                  {% for gallery in site.data.r44imggallery %}
+                  <li><a href="#" data-toggle="modal" data-target=".{{ gallery.target }}">{{ gallery.description }}</a></li>
+                  <div class="modal fade {{ gallery.target }}" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+                    <div class="modal-dialog modal-lg" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                          <h4 class="modal-title text-center" id="myLargeModalLabel">{{ gallery.description }}</h4> </div>
+                          <div class="modal-body">
+                            <div class="popup-gallery">
+                              {% for image in gallery.images %}
+                              <a data-dismiss="modal" href="{{ gallery.imagefolder }}/{{ image.name }}" title="{{ image.text }}"><img class="thumb_padding" src="{{ gallery.imagefolder }}/{{ image.thumb }}" ></a>
+                              {% endfor %}
+                            </div><!-- /popup-gallery -->
+                          </div><!-- /modal-body -->
+                        </div><!-- /modal-content -->
+                      </div><!-- /modal-dialog -->
+                    </div><!-- /modal -->
+                    {% endfor %}
+                  </ul>
+                </div><!-- /col-md-4 r44-->
+                <div class="col-md-4">
+                  <h2 class="text-center">R66</h2>
+                  <ul class="li-circle">
+                    {% for gallery in site.data.r66 %}
+                    <li><a href="#" data-toggle="modal" data-target=".{{ gallery.target }}">{{ gallery.description }}</a></li>
+                    <div class="modal fade {{ gallery.target }}" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+                      <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                            <h4 class="modal-title text-center" id="myLargeModalLabel">{{ gallery.description }}</h4> </div>
+                            <div class="modal-body">
+                              <div class="popup-gallery">
+                                {% for image in gallery.images %}
+                                <a data-dismiss="modal" href="{{ gallery.imagefolder }}/{{ image.name }}" title="{{ image.text }}"><img class="thumb_padding" src="{{ gallery.imagefolder }}/{{ image.thumb }}" ></a>
+                                {% endfor %}
+                              </div><!-- /popup-gallery -->
+                            </div><!-- /modal-body -->
+                          </div><!-- /modal-content -->
+                        </div><!-- /modal-dialog -->
+                      </div><!-- /modal -->
+                      {% endfor %}
+                    </ul>
+                  </div><!-- /col-md-4 r66-->
+                </div><!-- /row -->
+              </div><!-- /Well -->
+            </div><!-- /Tabpanel -->
+            <div role="tabpanel" class="tab-pane" id="r44">
+              <div class="well tab-pane-heading">
+                <h2 class="text-center">R44</h2>
+                <div class="row">
+                  <div class="col-xs-6 col-md-6">
+                    <ul class="list-unstyled">
+                      <li><a href="anti_icing.html">Anti-icing System (Carburetor Heat)</a></li>
+                      <li><a href="antitorque_system.html">Anti-torque System</a></li>
+                      <li><a href="drive_system.html">Drive System</a></li>
+                      <li><a href="electrical_system.html">Electrical System</a></li>
+                      <li><a href="environmental_system.html">Environmental System</a></li>
+                      <li><a href="flight_controls.html">Flight Controls</a></li>
+                      <li><a href="fuel_system.html">Fuel System</a></li>
+                    </ul>
+                  </div><!-- /col-md-6 -->
+                  <div class="col-xs-6 col-md-6">
+                    <ul class="list-unstyled">
+                      <li><a href="instruments.html">Instruments</a></li>
+                      <li><a href="landing_gear.html">Landing Gear</a></li>
+                      <li><a href="main_rotor_system.html">Main Rotor System</a></li>
+                      <li><a href="oil_system.html">Oil System</a></li>
+                      <li><a href="pitot_static_system.html">Pitot-Static System</a></li>
+                      <li><a href="powerplant.html">Powerplant</a></li>
+                    </ul>
+                  </div><!-- /col-md-6 -->
+                </div><!-- /row -->
+              </div><!-- /Well -->
+            </div><!-- /Tabpanel -->
+            <div role="tabpanel" class="tab-pane" id="r66">
+              <div class="well tab-pane-heading">
+                <h2 class="text-center">R66</h2>
+                <div class="row">
+                  <div class="col-xs-6 col-md-6">
+                    <ul class="list-unstyled">
+                      <li><a href="anti_icing.html">Anti-icing System (Carburetor Heat)</a></li>
+                      <li><a href="antitorque_system.html">Anti-torque System</a></li>
+                      <li><a href="drive_system.html">Drive System</a></li>
+                      <li><a href="electrical_system.html">Electrical System</a></li>
+                      <li><a href="environmental_system.html">Environmental System</a></li>
+                      <li><a href="flight_controls.html">Flight Controls</a></li>
+                      <li><a href="fuel_system.html">Fuel System</a></li>
+                    </ul>
+                  </div><!-- /col-md-6 -->
+                  <div class="col-xs-6 col-md-6">
+                    <ul class="list-unstyled">
+                      <li><a href="instruments.html">Instruments</a></li>
+                      <li><a href="landing_gear.html">Landing Gear</a></li>
+                      <li><a href="main_rotor_system.html">Main Rotor System</a></li>
+                      <li><a href="oil_system.html">Oil System</a></li>
+                      <li><a href="pitot_static_system.html">Pitot-Static System</a></li>
+                      <li><a href="powerplant.html">Powerplant</a></li>
+                    </ul>
+                  </div><!-- /col-md-6 -->
+                </div><!-- /row -->
+              </div><!-- /Well -->
+            </div><!-- /Tabpanel -->
+          </div><!-- /Tab panes -->
+          <h2 id="enstrom">Enstrom <a href="#"><span class="to_the_top"><span class="glyphicon glyphicon-arrow-up"></span>(Top)</span></a></h2>
+          <!-- Nav tabs -->
+          <ul class="nav nav-tabs" role="tablist">
+            <li role="presentation" class="active"><a href="#480b" aria-controls="home" role="tab" data-toggle="tab"></span>480B</a></li>
+            <!-- <li role="presentation"><a href="#__" aria-controls="profile" role="tab" data-toggle="tab">____</a></li> -->
+          </ul>
+          <!-- Tab panes -->
+          <div class="tab-content accident_tabs">
+            <div role="tabpanel" class="tab-pane active" id="480b">
+              <div class="well tab-pane-heading">
+                <div class="row">
+                  <div class="col-md-4">
+                    <h2 class="text-center">480B</h2>
+                    <ul class="li-circle">
+                      {% for gallery in site.data.enst480b %}
+                      <li><a href="#" data-toggle="modal" data-target=".{{ gallery.target }}">{{ gallery.description }}</a></li>
+                      <div class="modal fade {{ gallery.target }}" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+                        <div class="modal-dialog modal-lg" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                              <h4 class="modal-title text-center" id="myLargeModalLabel">{{ gallery.description }}</h4> </div>
+                              <div class="modal-body">
+                                <div class="popup-gallery">
+                                  {% for image in gallery.images %}
+                                  <a data-dismiss="modal" href="{{ gallery.imagefolder }}/{{ image.name }}" title="{{ image.text }}"><img class="thumb_padding" src="{{ gallery.imagefolder }}/{{ image.thumb }}" ></a>
+                                  {% endfor %}
+                                </div><!-- /popup-gallery -->
+                              </div><!-- /modal-body -->
+                            </div><!-- /modal-content -->
+                          </div><!-- /modal-dialog -->
+                        </div><!-- /modal -->
+                        {% endfor %}
+                      </ul>
+                    </div><!-- /col-md-4 480b-->
+                  </div><!-- /row -->
+                </div><!-- /well -->
+              </div><!-- /tapanel -->
+            </div><!-- /tab-content -->
+
+
+            <hr>
+            <h1 class="text-center" id="misc">Miscellaneous Photos</h1>
+            <hr>
+            <h2 id="powerplant">Powerplant <a href="#"><span class="to_the_top"><span class="glyphicon glyphicon-arrow-up"></span>(Top)</span></a></h2>
+            <!-- Nav tabs -->
+            <ul class="nav nav-tabs" role="tablist">
+              <li role="presentation" class="active"><a href="#powerplant_tab" aria-controls="home" role="tab" data-toggle="tab"></span>Powerplant</a></li>
+              <!-- <li role="presentation"><a href="#__" aria-controls="profile" role="tab" data-toggle="tab">____</a></li> -->
+            </ul>
+            <!-- Tab panes -->
+            <div class="tab-content accident_tabs">
+              <div role="tabpanel" class="tab-pane active" id="powerplant_tab">
+                <div class="well tab-pane-heading">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <h2 class="text-center">Piston</h2>
+                      <ul class="li-circle">
+                        {% for gallery in site.data.piston %}
+                        <li><a href="#" data-toggle="modal" data-target=".{{ gallery.target }}">{{ gallery.description }}</a></li>
+                        <div class="modal fade {{ gallery.target }}" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+                          <div class="modal-dialog modal-lg" role="document">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                                <h4 class="modal-title text-center" id="myLargeModalLabel">{{ gallery.description }}</h4> </div>
+                                <div class="modal-body">
+                                  <div class="popup-gallery">
+                                    {% for image in gallery.images %}
+                                    <a data-dismiss="modal" href="{{ gallery.imagefolder }}/{{ image.name }}" title="{{ image.text }}"><img class="thumb_padding" src="{{ gallery.imagefolder }}/{{ image.thumb }}" ></a>
+                                    {% endfor %}
+                                  </div><!-- /popup-gallery -->
+                                </div><!-- /modal-body -->
+                              </div><!-- /modal-content -->
+                            </div><!-- /modal-dialog -->
+                          </div><!-- /modal -->
+                          {% endfor %}
+                        </ul>
+                      </div><!-- /col-md-4 R22-->
+                      <div class="col-md-4">
+                        <h2 class="text-center">Turbine</h2>
+                        <ul class="li-circle">
+                          {% for gallery in site.data.turbine %}
+                          <li><a href="#" data-toggle="modal" data-target=".{{ gallery.target }}">{{ gallery.description }}</a></li>
+                          <div class="modal fade {{ gallery.target }}" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+                            <div class="modal-dialog modal-lg" role="document">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                                  <h4 class="modal-title text-center" id="myLargeModalLabel">{{ gallery.description }}</h4> </div>
+                                  <div class="modal-body">
+                                    <div class="popup-gallery">
+                                      {% for image in gallery.images %}
+                                      <a data-dismiss="modal" href="{{ gallery.imagefolder }}/{{ image.name }}" title="{{ image.text }}"><img class="thumb_padding" src="{{ gallery.imagefolder }}/{{ image.thumb }}" ></a>
+                                      {% endfor %}
+                                    </div><!-- /popup-gallery -->
+                                  </div><!-- /modal-body -->
+                                </div><!-- /modal-content -->
+                              </div><!-- /modal-dialog -->
+                            </div><!-- /modal -->
+                            {% endfor %}
+                          </ul>
+                        </div><!-- /col-md-4 r44-->
+                        <!-- INSERT R66 HERE -->
+                      </div><!-- /row -->
+                    </div><!-- /Well -->
+                  </div><!-- /Tab panes -->
+                </div>
+                <h2 id="fltinstruments">Instruments <a href="#"><span class="to_the_top"><span class="glyphicon glyphicon-arrow-up"></span>(Top)</span></a></h2>
+                <!-- Nav tabs -->
+                <ul class="nav nav-tabs" role="tablist">
+                  <li role="presentation" class="active"><a href="#instrumentstab" aria-controls="home" role="tab" data-toggle="tab"></span>Instruments</a></li>
+                  <!-- <li role="presentation"><a href="#__" aria-controls="profile" role="tab" data-toggle="tab">____</a></li> -->
+                </ul>
+                <!-- Tab panes -->
+                <div class="tab-content accident_tabs">
+                  <div role="tabpanel" class="tab-pane active" id="instrumentstab">
+                    <div class="well tab-pane-heading">
+                      <div class="row">
+                        <div class="col-md-4">
+                          <h2 class="text-center">Gyroscopic Instruments</h2>
+                          <ul class="li-circle">
+                            {% for gallery in site.data.gyro %}
+                            <li><a href="#" data-toggle="modal" data-target=".{{ gallery.target }}">{{ gallery.description }}</a></li>
+                            <div class="modal fade {{ gallery.target }}" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+                              <div class="modal-dialog modal-lg" role="document">
+                                <div class="modal-content">
+                                  <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                                    <h4 class="modal-title text-center" id="myLargeModalLabel">{{ gallery.description }}</h4> </div>
+                                    <div class="modal-body">
+                                      <div class="popup-gallery">
+                                        {% for image in gallery.images %}
+                                        <a data-dismiss="modal" href="{{ gallery.imagefolder }}/{{ image.name }}" title="{{ image.text }}"><img class="thumb_padding" src="{{ gallery.imagefolder }}/{{ image.thumb }}" ></a>
+                                        {% endfor %}
+                                      </div><!-- /popup-gallery -->
+                                    </div><!-- /modal-body -->
+                                  </div><!-- /modal-content -->
+                                </div><!-- /modal-dialog -->
+                              </div><!-- /modal -->
+                              {% endfor %}
+                            </ul>
+                          </div><!-- /col-md-4 gyroscopic-->
+                          <div class="col-md-4">
+                            <h2 class="text-center">Pitot-Static Instruments</h2>
+                            <ul class="li-circle">
+                              {% for gallery in site.data.pitot %}
+                              <li><a href="#" data-toggle="modal" data-target=".{{ gallery.target }}">{{ gallery.description }}</a></li>
+                              <div class="modal fade {{ gallery.target }}" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+                                <div class="modal-dialog modal-lg" role="document">
+                                  <div class="modal-content">
+                                    <div class="modal-header">
+                                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                                      <h4 class="modal-title text-center" id="myLargeModalLabel">{{ gallery.description }}</h4> </div>
+                                      <div class="modal-body">
+                                        <div class="popup-gallery">
+                                          {% for image in gallery.images %}
+                                          <a data-dismiss="modal" href="{{ gallery.imagefolder }}/{{ image.name }}" title="{{ image.text }}"><img class="thumb_padding" src="{{ gallery.imagefolder }}/{{ image.thumb }}" ></a>
+                                          {% endfor %}
+                                        </div><!-- /popup-gallery -->
+                                      </div><!-- /modal-body -->
+                                    </div><!-- /modal-content -->
+                                  </div><!-- /modal-dialog -->
+                                </div><!-- /modal -->
+                                {% endfor %}
+                              </ul>
+                            </div><!-- /col-md-4 Pitot-static-->
+                            <div class="col-md-4">
+                              <h2 class="text-center">Other</h2>
+                              <ul class="li-circle">
+                                {% for gallery in site.data.otherinst %}
+                                <li><a href="#" data-toggle="modal" data-target=".{{ gallery.target }}">{{ gallery.description }}</a></li>
+                                <div class="modal fade {{ gallery.target }}" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+                                  <div class="modal-dialog modal-lg" role="document">
+                                    <div class="modal-content">
+                                      <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                                        <h4 class="modal-title text-center" id="myLargeModalLabel">{{ gallery.description }}</h4> </div>
+                                        <div class="modal-body">
+                                          <div class="popup-gallery">
+                                            {% for image in gallery.images %}
+                                            <a data-dismiss="modal" href="{{ gallery.imagefolder }}/{{ image.name }}" title="{{ image.text }}"><img class="thumb_padding" src="{{ gallery.imagefolder }}/{{ image.thumb }}" ></a>
+                                            {% endfor %}
+                                          </div><!-- /popup-gallery -->
+                                        </div><!-- /modal-body -->
+                                      </div><!-- /modal-content -->
+                                    </div><!-- /modal-dialog -->
+                                  </div><!-- /modal -->
+                                  {% endfor %}
+                                </ul>
+                              </div><!-- /col-md-4 other-->
+                            </div><!-- /row -->
+                          </div><!-- /Well -->
+                        </div><!-- /Tab panes -->
+                      </div><!-- tab-content accident_tabs -->
+                    </div><!-- /col-md-12 -->
+                  </div><!-- /row -->
+                </div><!-- /container -->
+                <script type="text/javascript"> <!-- magnificPopup Gallery -->
+                $('.popup-gallery').each(function () {
+                  $(this).magnificPopup({
+                    delegate: 'a',
+                    type: 'image',
+                    tLoading: 'Loading image #%curr%...',
+                    mainClass: 'mfp-img-mobile',
+                    gallery: {
+                      enabled: true,
+                      navigateByImgClick: true,
+                      preload: [0,1] // Will preload 0 - before current, and 1 after the current image
+                    },
+                    image: {
+                      tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
+                      titleSrc: function(item) {
+                        return item.el.attr('title');
+                      }
+                    },
+                  });
+                });
+                </script><!-- /magnificPopup Gallery -->

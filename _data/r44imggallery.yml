@@ -1,0 +1,247 @@
+# - id: r22-antiice
+#   description: Anti-Icing System (Carb Heat)
+#   target: r22antiice
+#   imagefolder: /resources/img/r44
+#   images:
+#   - name: antiice-carb_heat_slider.jpg
+#     thumb: antiice-carb_heat_slider_tn.jpg
+#     text: Carb Heat Slider
+#   - name: antiice-carbheatscoop.jpg
+#     thumb: antiice-carbheatscoop_tn.jpg
+#     text: Carb Heat Scoop
+- id: r44-antitorque
+  description: Anti-torque System
+  target: r44antitorque
+  imagefolder: /resources/img/r44
+  images:
+  - name: antitorque-stinger.jpg
+    thumb: antitorque-stinger_tn.jpg
+    text: R44 Stinger
+  - name: antitorque-tailrotor.jpg
+    thumb: antitorque-tailrotor_tn.jpg
+    text: R44 Tail Rotor
+  - name: antitorque-trassembly.jpg
+    thumb: antitorque-trassembly_tn.jpg
+    text: R44 Tail Rotor Assembly
+  - name: antitorque-trassembly2.jpg
+    thumb: antitorque-trassembly2_tn.jpg
+    text: R44 Tail Rotor Assembly
+- id: r44-drive
+  description: Drive System
+  target: r44drive
+  imagefolder: /resources/img/r44
+  images:
+  - name: drive-sprag_in_sheave.jpg
+    thumb: drive-sprag_in_sheave_tn.jpg
+    text: Sprag Clutch
+  - name: drive-spragclutch.jpg
+    thumb: drive-spragclutch_tn.jpg
+    text: Sprag Clutch
+  - name: drive-spragclutch2.jpg
+    thumb: drive-spragclutch2_tn.jpg
+    text: Sprag Clutch
+  - name: drive-enginerear.jpg
+    thumb: drive-enginerear_tn.jpg
+    text:
+  - name: drive-io540rear.jpg
+    thumb: drive-io540rear_tn.jpg
+    text:
+  - name: drive-lowersheave.jpg
+    thumb: drive-lowersheave_tn.jpg
+    text:
+  - name: drive-lowersheave2.jpg
+    thumb: drive-lowersheave2_tn.jpg
+    text:
+  - name: drive-starteralternator.jpg
+    thumb: drive-starteralternator_tn.jpg
+    text:
+  - name: drive_clutch.jpg
+    thumb: drive_clutch_tn.jpg
+    text: Clutch
+  - name: drive-yoke_flange.jpg
+    thumb: drive-yoke_flange_tn.jpg
+    text: Yoke Flange
+- id: r44-electrical
+  description: Electrical System
+  target: r44electrical
+  imagefolder: /resources/img/r44
+  images:
+  - name: electrical_starter.jpg
+    thumb: electrical_starter_tn.jpg
+    text: Starter
+  - name: electrical-circuitbreakers.jpg
+    thumb: electrical-circuitbreakers_tn.jpg
+    text: Circuit Breakers
+  - name: electrical-starter2.jpg
+    thumb: electrical-starter2_tn.jpg
+    text: Starter
+  - name: electrical-warninglights.jpg
+    thumb: electrical-warninglights_tn.jpg
+    text: Warning Light Test Switches
+- id: r44-environmental
+  description: Environmental System
+  target: r44environmental
+  imagefolder: /resources/img/r44
+  images:
+  - name: environ-heater.jpg
+    thumb: environ-heater_tn.jpg
+    text:
+  - name: environ-heater2.jpg
+    thumb: environ-heater2_tn.jpg
+    text:
+  - name: environ-heaterassembly.jpg
+    thumb: environ-heaterassembly_tn.jpg
+    text:
+  - name: environmental-ac.jpg
+    thumb: environmental-ac_tn.jpg
+    text: AC Compressor
+  - name: environmental-ac2.jpg
+    thumb: environmental-ac2_tn.jpg
+    text:
+- id: r44-flightcntrl
+  description: Flight Controls
+  target: r44fltcntrl
+  imagefolder: /resources/img/r44
+  images:
+  - name: flightcntrl-fltcontrollinkage.jpg
+    thumb: flightcntrl-fltcontrollinkage_tn.jpg
+    text:
+  - name: flightcntrl-pedals.jpg
+    thumb: flightcntrl-pedals_tn.jpg
+    text:
+  - name: flightcntrl-pushrodguides.jpg
+    thumb: flightcntrl-pushrodguides_tn.jpg
+    text:
+  - name: flightcntrl-r44cyclic.jpg
+    thumb: flightcntrl-r44cyclic_tn.jpg
+    text:
+- id: r44-fuel
+  description: Fuel System
+  target: r44fuel
+  imagefolder: /resources/img/r44
+  images:
+  - name: fuel-fuelsensor.jpg
+    thumb: fuel-fuelsensor_tn.jpg
+    text: Fuel Float Sensor
+  - name: fuel-fuelinjection.jpg
+    thumb: fuel-fuelinjection_tn.jpg
+    text:
+  - name: fuel-fuelinjection2.jpg
+    thumb: fuel-fuelinjection2_tn.jpg
+    text:
+  - name: fuel-fuelshutoff.jpg
+    thumb: fuel-fuelshutoff_tn.jpg
+    text:
+  - name: fuel-pressureswitch.jpg
+    thumb: fuel-pressureswitch_tn.jpg
+    text:
+  - name: fuel-r44fuel.jpg
+    thumb: fuel-r44fuel_tn.jpg
+    text:
+  - name: fuel-r44gascolator.jpg
+    thumb: fuel-r44gascolator_tn.jpg
+    text:
+  - name: fuel-fuel_sender.jpg
+    thumb: fuel-fuel_sender_tn.jpg
+    text: Fuel Sender
+  - name: fuel-return_valve.jpg
+    thumb: fuel-return_valve_tn.jpg
+    text: Fuel Return Valve
+- id: r44-hydraulic
+  description: Hydraulic System
+  target: r44hydraulic
+  imagefolder: /resources/img/r44
+  images:
+  - name: hydraulic-hydraulic_pump.jpg
+    thumb: hydraulic-hydraulic_pump_tn.jpg
+    text: Hydraulic Pump
+- id: r44-instruments
+  description: Instruments
+  target: r44instruments
+  imagefolder: /resources/img/r44
+  images:
+  - name: instruments-r44cockpic.jpg
+    thumb: instruments-r44cockpic_tn.jpg
+    text:
+  - name: instruments-r44cockpit2.jpg
+    thumb: instruments-r44cockpit2_tn.jpg
+    text:
+  - name: instruments_vor.jpg
+    thumb: instruments_vor_tn.jpg
+    text: VOR Antenna
+  - name: instruments-comms_2.jpg
+    thumb: instruments-comms_2_tn.jpg
+    text: Communication Antenna
+  - name: instruments-comms.jpg
+    thumb: instruments-comms_tn.jpg
+    text: Communication Antenna
+  - name: instruments-elt.jpg
+    thumb: instruments-elt_tn.jpg
+    text: ELT Switch
+  - name: instruments-hsi_adjust.jpg
+    thumb: instruments-hsi_adjust_tn.jpg
+    text: HSI Adjustment
+- id: r44-landing
+  description: Landing Gear
+  target: r44landing
+  imagefolder: /resources/img/r44
+  images:
+  - name: landing-gear.jpg
+    thumb: landing-gear_tn.jpg
+    text: Landing Gear
+  - name: landing-skidshoes.jpg
+    thumb: landing-skidshoes_tn.jpg
+    text: Skid Shoes
+- id: r44-mrsystem
+  description: Main Rotor System
+  target: r44mainrotor
+  imagefolder: /resources/img/r44
+  images:
+  - name: mrsystem-bladeroot.jpg
+    thumb: mrsystem-bladeroot_tn.jpg
+    text: Blade Root
+  - name: mrsystem-spindlebearings.jpg
+    thumb: mrsystem-spindlebearings_tn.jpg
+    text: Spindle Bearings
+- id: r44-oil
+  description: Oil System
+  target: r44oil
+  imagefolder: /resources/img/r44
+  images:
+  - name: oil-r44oilpressure.jpg
+    thumb: oil-r44oilpressure_tn.jpg
+    text:
+  - name: oil-oil_door.jpg
+    thumb: oil-oil_door_tn.jpg
+    text: Oil Cooler Door
+- id: r44-pitot
+  description: Pitot-Static System
+  target: r44pitot
+  imagefolder: /resources/img/r44
+  images:
+  - name: pitot-pitot.jpg
+    thumb: pitot-pitot_tn.jpg
+    text: Pitot Tube
+  - name: pitot-static.jpg
+    thumb: pitot-static_tn.jpg
+    text: Static Port
+- id: r44-powerplant
+  description: Powerplant
+  target: r44powerplant
+  imagefolder: /resources/img/r44
+  images:
+  - name: powerplant-io540left.jpg
+    thumb: powerplant-io540left_tn.jpg
+    text:
+  - name: powerplant-io540right.jpg
+    thumb: powerplant-io540right_tn.jpg
+    text:
+  - name: powerplant-io540top.jpg
+    thumb: powerplant-io540top_tn.jpg
+    text:
+  - name: powerplant-intake.jpg
+    thumb: powerplant-intake_tn.jpg
+    text: Intake
+  - name: powerplant-squirrel_cage.jpg
+    thumb: powerplant-squirrel_cage_tn.jpg
+    text: Squirrel Cage Fan

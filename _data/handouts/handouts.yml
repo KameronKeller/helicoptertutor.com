@@ -1,0 +1,85 @@
+- id: logbook
+  navbar: Year
+  description: Accidents by Year
+  imagefolder: /resources/img/accidents
+  images:
+  - name: https://docs.google.com/spreadsheets/d/e/2PACX-1vSLw1vJ251dXYmWm7qRqbH0SZPZLYKo4DsKyE1SVUcmJKELjAZK6q_bfktnSwqMLXfuWodsvd91DqDc/pubchart?oid=1497264452&format=image
+    thumb: year_tn.png
+    text: Accidents by Year
+- id: injury
+  navbar: Injury Severity
+  description: Accidents by Injury Severity
+  imagefolder: /resources/img/accidents
+  images:
+  - name: https://docs.google.com/spreadsheets/d/e/2PACX-1vSLw1vJ251dXYmWm7qRqbH0SZPZLYKo4DsKyE1SVUcmJKELjAZK6q_bfktnSwqMLXfuWodsvd91DqDc/pubchart?oid=1784868615&format=image
+    thumb: injury_bar_tn.png
+    text: Injury Severity Bar Graph
+  - name: https://docs.google.com/spreadsheets/d/e/2PACX-1vSLw1vJ251dXYmWm7qRqbH0SZPZLYKo4DsKyE1SVUcmJKELjAZK6q_bfktnSwqMLXfuWodsvd91DqDc/pubchart?oid=673088046&format=image
+    thumb: injury_pie_tn.png
+    text: Injury Severity Pie Chart
+- id: damage
+  navbar: Aircraft Damage
+  description: Accidents by Aircraft Damage
+  imagefolder: /resources/img/accidents
+  images:
+  - name: https://docs.google.com/spreadsheets/d/e/2PACX-1vSLw1vJ251dXYmWm7qRqbH0SZPZLYKo4DsKyE1SVUcmJKELjAZK6q_bfktnSwqMLXfuWodsvd91DqDc/pubchart?oid=2055098143&format=image
+    thumb: damage_bar_tn.png
+    text: Aircraft Damage Bar Graph
+  - name: https://docs.google.com/spreadsheets/d/e/2PACX-1vSLw1vJ251dXYmWm7qRqbH0SZPZLYKo4DsKyE1SVUcmJKELjAZK6q_bfktnSwqMLXfuWodsvd91DqDc/pubchart?oid=1849599438&format=image
+    thumb: damage_pie_tn.png
+    text:  Aircraft Damage Pie Chart
+- id: engine
+  navbar: Engine Type
+  description: Accidents by Engine Type
+  imagefolder: /resources/img/accidents
+  images:
+  - name: https://docs.google.com/spreadsheets/d/e/2PACX-1vSLw1vJ251dXYmWm7qRqbH0SZPZLYKo4DsKyE1SVUcmJKELjAZK6q_bfktnSwqMLXfuWodsvd91DqDc/pubchart?oid=124921935&format=image
+    thumb: engine_bar_tn.png
+    text: Engine Type Bar Graph
+  - name: https://docs.google.com/spreadsheets/d/e/2PACX-1vSLw1vJ251dXYmWm7qRqbH0SZPZLYKo4DsKyE1SVUcmJKELjAZK6q_bfktnSwqMLXfuWodsvd91DqDc/pubchart?oid=258459537&format=image
+    thumb: engine_pie_tn.png
+    text: Engine Type Pie Chart
+- id: far
+  navbar: FAR Description
+  description: Accidents by FAR Description
+  imagefolder: /resources/img/accidents
+  images:
+  - name: https://docs.google.com/spreadsheets/d/e/2PACX-1vSLw1vJ251dXYmWm7qRqbH0SZPZLYKo4DsKyE1SVUcmJKELjAZK6q_bfktnSwqMLXfuWodsvd91DqDc/pubchart?oid=617120464&format=image
+    thumb: far_bar_tn.png
+    text: FAR Description Bar Graph
+  - name: https://docs.google.com/spreadsheets/d/e/2PACX-1vSLw1vJ251dXYmWm7qRqbH0SZPZLYKo4DsKyE1SVUcmJKELjAZK6q_bfktnSwqMLXfuWodsvd91DqDc/pubchart?oid=977087114&format=image
+    thumb: far_pie_tn.png
+    text: FAR Description Pie Chart
+- id: purpose
+  navbar: Purpose of Flight
+  description: Accidents by Purpose of Flight
+  imagefolder: /resources/img/accidents
+  images:
+  - name: https://docs.google.com/spreadsheets/d/e/2PACX-1vSLw1vJ251dXYmWm7qRqbH0SZPZLYKo4DsKyE1SVUcmJKELjAZK6q_bfktnSwqMLXfuWodsvd91DqDc/pubchart?oid=579683336&format=image
+    thumb: purpose_bar_tn.png
+    text: Purpose of Flight Bar Graph
+  - name: https://docs.google.com/spreadsheets/d/e/2PACX-1vSLw1vJ251dXYmWm7qRqbH0SZPZLYKo4DsKyE1SVUcmJKELjAZK6q_bfktnSwqMLXfuWodsvd91DqDc/pubchart?oid=745415576&format=image
+    thumb: purpose_pie_tn.png
+    text: Purpose of Flight Pie Chart
+- id: weather
+  navbar: Weather Conditions
+  description: Accidents by Weather Conditions
+  imagefolder: /resources/img/accidents
+  images:
+  - name: https://docs.google.com/spreadsheets/d/e/2PACX-1vSLw1vJ251dXYmWm7qRqbH0SZPZLYKo4DsKyE1SVUcmJKELjAZK6q_bfktnSwqMLXfuWodsvd91DqDc/pubchart?oid=661068693&format=image
+    thumb: weather_bar_tn.png
+    text: Weather Conditions Bar Graph
+  - name: https://docs.google.com/spreadsheets/d/e/2PACX-1vSLw1vJ251dXYmWm7qRqbH0SZPZLYKo4DsKyE1SVUcmJKELjAZK6q_bfktnSwqMLXfuWodsvd91DqDc/pubchart?oid=811221129&format=image
+    thumb: weather_pie_tn.png
+    text: Weather Conditions Pie Chart
+- id: phase
+  navbar: Phase of Flight
+  description: Accidents by Broad Phase of Flight
+  imagefolder: /resources/img/accidents
+  images:
+  - name: https://docs.google.com/spreadsheets/d/e/2PACX-1vSLw1vJ251dXYmWm7qRqbH0SZPZLYKo4DsKyE1SVUcmJKELjAZK6q_bfktnSwqMLXfuWodsvd91DqDc/pubchart?oid=329909942&format=image
+    thumb: broad_bar_tn.png
+    text: Broad Phase of Flight Bar Graph
+  - name: https://docs.google.com/spreadsheets/d/e/2PACX-1vSLw1vJ251dXYmWm7qRqbH0SZPZLYKo4DsKyE1SVUcmJKELjAZK6q_bfktnSwqMLXfuWodsvd91DqDc/pubchart?oid=1303727130&format=image
+    thumb: broad_pie_tn.png
+    text: Broad Phase of Flight Pie Chart

@@ -1,0 +1,8 @@
+- id: other-inst
+  description: Magnetic Compass
+  target: otherinst
+  imagefolder: /resources/img/misc/instruments
+  images:
+  - name: magcompass.jpg
+    thumb: magcompass_tn.jpg
+    text: 

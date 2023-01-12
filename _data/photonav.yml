@@ -1,0 +1,27 @@
+companies:
+ - name: Bell
+   model:
+    - model-number: B407
+    - model-number: B206
+ - name: Robinson
+   model:
+   - model-number: R22
+   - model-number: R44
+
+
+
+# company:
+#   - name: Bell
+#     model:
+#       - B407
+#       - B206
+#   - name: Robinson
+#     model:
+#       - R22
+#       - R44
+#       - R66
+#   - name: Erickson
+#     model:
+#       - R22
+#       - R44
+#       - R66

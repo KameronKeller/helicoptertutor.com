@@ -1,0 +1,258 @@
+/*---------------------------Body---------------------------*/
+
+body {
+  background-color: #1a1a1a;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Raleway', sans-serif;
+}
+
+p, div {
+  font-family: 'Raleway', sans-serif;
+}
+
+.menu_container {
+  background-color: #e0dede;
+  padding: 50px 80px;
+}
+
+.grey_container {
+  background-color: #e5e5e5;
+  padding: 50px 80px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.white_container {
+  background-color: #fff;
+  min-height: 70px;
+  margin-top: 10px;
+  padding-bottom: 50px;
+}
+
+.total_content {
+  background-color: #fff;
+}
+
+h1 {
+  font-weight: 200;
+}
+
+h2 {
+  font-weight: 200;
+}
+
+hr {
+  border-color: #c1c1c1;
+}
+
+.light_h4 {
+  font-weight: 200;
+}
+
+
+/*---------------------------Index---------------------------*/
+
+.btn_transparent {
+  color: #fff;
+  background-color: #010004;
+  border-color: #4c4c4c;
+}
+
+.btn_transparent:hover {
+  color: #fff;
+  border-color: #ccc;
+  text-decoration: underline;
+}
+
+.backgnd_img_heading {
+  background-image: url('../img/photos_bck.jpg');
+  min-height: 250px;
+  min-width: 250px;
+  padding: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+}
+
+/*---------------------------Jumbotron---------------------------*/
+
+.jumbotron {
+    /*margin-top: -20px; /* removes gap between navbar and jumbotron */
+    position: relative;
+    /*padding: 10px 50px 30px 50px;*/
+    background: #444 url('/resources/img/jumbo_background1.jpg') center center;
+    background-size: cover;
+    margin-bottom: 0px;
+    min-height: 700px;
+}
+
+.jumbotron > .container > h1 {
+    color: #f2f2f2;
+    font-weight: 200;
+    letter-spacing: -2px;
+/*    background-color: #fff;*/
+}
+
+.jumbotron > .container > p {
+    color: #f2f2f2;
+}
+
+/*---------------------------Navbar---------------------------*/
+
+
+.navbar-static-top {
+    font-weight: 200;
+    letter-spacing: .3;
+    margin-bottom: 0px;
+}
+
+
+.navbar-brand {
+    font-size: 16px;
+    font-weight: 100 !important;
+    letter-spacing: .7;
+    /*color: #ffffff !important;;*/
+}
+
+.navbar-brand > .glyphicon {
+    color: #ffffff;
+  }
+
+/*---------------------------breadcrumb---------------------------*/
+.bread_border {
+    border: 1px solid #7591ad;
+}
+
+/*---------------------------media_nav formatting---------------------------*/
+.media_menu h4 {
+    margin: 0px;
+}
+
+.media_menu .list_heading {
+    background-color: #f6f4f6;
+}
+
+.caption p {
+    margin: 0px;
+}
+.to_the_top {
+  font-size: 15px;
+}
+
+.tab-pane-heading h2 {
+  margin-top: 0px;
+}
+
+/*---------------------------Start Photo Gallery---------------------------*/
+.gallery .thumbnail:hover {
+    border: 1px solid black;
+}
+
+.gallery a:hover {
+    text-decoration: none;
+}
+
+.thumb_padding {
+  padding: 5px;
+}
+/*---------------------------Start Video Theater---------------------------*/
+.center_video {
+  margin: 0 auto;
+  display: block;
+}
+/*---------------------------Start Accident Report Page---------------------------*/
+.acc_thumb_border {
+  border: 1px solid #a5a5a5;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+/*---------------------------Start About Page---------------------------*/
+.about_container {
+  padding-bottom: 50px;
+}
+
+.about_container h1 {
+    font-weight: 200;
+}
+
+.about_container h2 {
+    font-weight: 100;
+}
+
+
+.about_container p {
+    font-size: 17px;
+    font-weight: 200;
+}
+
+/*---------------------------start footer---------------------------*/
+.dark_footer {
+  height: auto;
+  padding-top: 40px;
+  /*margin-top: 40px;*/
+  padding: 10px;
+  background-color: #1a1a1a;
+  color: #666666;
+}
+
+.dark_footer hr {
+    background-color: #262626;
+    height: 1px;
+    border: 0;
+}
+
+.dark_footer ul {
+    list-style: none;
+    padding: 0px;
+}
+
+.dark_footer li {
+  display: inline;
+  padding-right: 10px;
+}
+
+/*---------------------------Misc---------------------------*/
+.underlined_ul li {
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.ul_buttons {
+  margin-left: -40px;
+  list-style: none;
+}
+
+.li_buttons {
+  padding: 6px;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.li_buttons:hover {
+  text-decoration: none;
+  background-color: #ddd;
+}
+
+.li-circle {
+  list-style-type: circle;
+}
+
+.img-circle_border {
+  border: 1px solid #e0dede;
+}
+
+.logo-png {
+  background-image: url("../img/logo.png");
+  width: 50px;
+  height: 32px;
+}
+
+.inline-img {
+  display: inline-block;
+  float: left;
+  margin-top: -5px;
+  margin-right: 5px;
+}

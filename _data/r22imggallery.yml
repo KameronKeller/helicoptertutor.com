@@ -1,0 +1,464 @@
+- id: r22-antiice
+  description: Anti-Icing System (Carb Heat)
+  target: r22antiice
+  imagefolder: /resources/img/r22
+  images:
+  - name: antiice-carb_heat_slider.jpg
+    thumb: antiice-carb_heat_slider_tn.jpg
+    text: Carb Heat Slider
+  - name: antiice-carbheatscoop.jpg
+    thumb: antiice-carbheatscoop_tn.jpg
+    text: Carb Heat Scoop
+  - name: antiice-carb_heat_scoop2.jpg
+    thumb: antiice-carb_heat_scoop2_tn.jpg
+    text: Carb Heat Scoop
+  - name: antiice-carb_heat.jpg
+    thumb: antiice-carb_heat_tn.jpg
+    text: Carb Heat System
+- id: r22-antitorque
+  description: Anti-torque System
+  target: r22antitorque
+  imagefolder: /resources/img/r22
+  images:
+  - name: antitorque-tr.jpg
+    thumb: antitorque-tr_tn.jpg
+    text: Assymmentrical Tail Rotor Design
+  - name: antitorque-assymmetrical.jpg
+    thumb: antitorque-assymmetrical_tn.jpg
+    text: Asymmetrical Tail Rotor
+  - name: antitorque-bellcrank.jpg
+    thumb: antitorque-bellcrank_tn.jpg
+    text: Tail Rotor Bell Crank
+  - name: antitorque-delta3.jpg
+    thumb: antitorque-delta3_tn.jpg
+    text: Delta 3 Hinge
+  - name: antitorque-horizontalstab.jpg
+    thumb: antitorque-horizontalstab_tn.jpg
+    text: Horizontal Stabilizer
+  - name: antitorque-stinger.jpg
+    thumb: antitorque-stinger_tn.jpg
+    text: Stinger
+  - name: antitorque-trassembly.jpg
+    thumb: antitorque-trassembly_tn.jpg
+    text: Tail Rotor
+  - name: antitorque-trgearbox.jpg
+    thumb: antitorque-trgearbox_tn.jpg
+    text: Tail Rotor Gearbox
+  - name: antitorque-trpitch2.jpg
+    thumb: antitorque-trpitch2_tn.jpg
+    text: Tail Rotor
+- id: r22-drive
+  description: Drive System
+  target: r22drive
+  imagefolder: /resources/img/r22
+  images:
+  - name: drive-clutch1.jpg
+    thumb: drive-clutch1_tn.jpg
+    text: Clutch
+  - name: drive-clutch2.jpg
+    thumb: drive-clutch2_tn.jpg
+    text: Clutch
+  - name: drive-clutch3.jpg
+    thumb: drive-clutch3_tn.jpg
+    text: Clutch
+  - name: drive-clutch4.jpg
+    thumb: drive-clutch4_tn.jpg
+    text: Clutch
+  - name: drive-rotorbrake2.jpg
+    thumb: drive-rotorbrake2_tn.jpg
+    text: Rotor Brake
+  - name: drive-sprag_in_sheave.jpg
+    thumb: drive-sprag_in_sheave_tn.jpg
+    text: Sprag Clutch
+  - name: drive-spragclutch.jpg
+    thumb: drive-spragclutch_tn.jpg
+    text: Sprag Clutch
+  - name: drive-spragclutch2.jpg
+    thumb: drive-spragclutch2_tn.jpg
+    text: Sprag Clutch
+  - name: drive-dampener.jpg
+    thumb: drive-dampener_tn.jpg
+    text: Dampener Bearing
+  - name: drive-dampener2.jpg
+    thumb: drive-dampener2_tn.jpg
+    text: Dampener Bearing
+  - name: drive-dampener4.jpg
+    thumb: drive-dampener4_tn.jpg
+    text: Dampener Bearing
+  - name: drive-flex.jpg
+    thumb: drive-flex_tn.jpg
+    text: Flex Plate
+  - name: drive-flexcoupling.jpg
+    thumb: drive-flexcoupling_tn.jpg
+    text: Flex Plate, Yoke Flanges
+  - name: drive-mrchip.jpg
+    thumb: drive-mrchip_tn.jpg
+    text: Chip Detector
+  - name: drive-mrgearbox.jpg
+    thumb: drive-mrgearbox_tn.jpg
+    text: Gearbox
+  - name: drive-mrgearbox2.jpg
+    thumb: drive-mrgearbox2_tn.jpg
+    text: Gearbox
+  - name: drive-rotorbrake.jpg
+    thumb: drive-rotorbrake_tn.jpg
+    text: Rotor Brake, Yoke Flanges
+  - name: drive-sheave.jpg
+    thumb: drive-sheave_tn.jpg
+    text: Sheave
+  - name: drive-sheave2.jpg
+    thumb: drive-sheave2_tn.jpg
+    text: Sheave
+  - name: drive-sheave3.jpg
+    thumb: drive-sheave3_tn.jpg
+    text: Sheave
+  - name: drive-vbelts.jpg
+    thumb: drive-vbelts_tn.jpg
+    text: V-Belts
+- id: r22-electrical
+  description: Electrical System
+  target: r22electrical
+  imagefolder: /resources/img/r22
+  images:
+  - name: electrical-exhalt.jpg
+    thumb: electrical-exhalt_tn.jpg
+    text: Alternator
+  - name: electrical-starter.jpg
+    thumb: electrical-starter_tn.jpg
+    text: Starter
+  - name: electrical-acu.jpg
+    thumb: electrical-acu_tn.jpg
+    text: Alternator Control Unit
+  - name: electrical-alternator.jpg
+    thumb: electrical-alternator_tn.jpg
+    text: Alternator
+  - name: electrical-circuitbreaker.jpg
+    thumb: electrical-circuitbreaker_tn.jpg
+    text: Circuit Breakers
+  - name: electrical-drive-starter.jpg
+    thumb: electrical-drive-starter_tn.jpg
+    text: Starter
+  - name: electrical-starterrelay.jpg
+    thumb: electrical-starterrelay_tn.jpg
+    text: Starter Relay
+  - name: electrical-warninglights.jpg
+    thumb: electrical-warninglights_tn.jpg
+    text: Warning Light Test Switches
+- id: r22-environmental
+  description: Environmental System
+  target: r22environmental
+  imagefolder: /resources/img/r22
+  images:
+  - name: environ-heaterintake.jpg
+    thumb: environ-heaterintake_tn.jpg
+    text: Heater Intake
+  - name: environ-heatermotor.jpg
+    thumb: environ-heatermotor_tn.jpg
+    text: Heater Motor
+  - name: environ-exhalt.jpg
+    thumb: environ-exhalt_tn.jpg
+    text: Heater Shroud, Left
+  - name: environ-exhaustheater.jpg
+    thumb: environ-exhaustheater_tn.jpg
+    text: Heater Shroud, Right
+- id: r22-flightcntrl
+  description: Flight Controls
+  target: r22fltcntrl
+  imagefolder: /resources/img/r22
+  images:
+  - name: flightcntrl-correlator.jpg
+    thumb: flightcntrl-correlator_tn.jpg
+    text: Correlator
+  - name: flightcntrl-gov.jpg
+    thumb: flightcntrl-gov_tn.jpg
+    text: Governor Motor
+  - name: flightcntrl-gov2.jpg
+    thumb: flightcntrl-gov2_tn.jpg
+    text: Governor Motor
+  - name: flightcntrl-gov3.jpg
+    thumb: flightcntrl-gov3_tn.jpg
+    text: Governor Motor
+  - name: flightcntrl-trim_friction.jpg
+    thumb: flightcntrl-trim_friction_tn.jpg
+    text: Cyclic Trim and Friction
+  - name: flightcntrl-collective.jpg
+    thumb: flightcntrl-collective_tn.jpg
+    text: Collective
+  - name: flightcntrl-r22cyclic.jpg
+    thumb: flightcntrl-r22cyclic_tn.jpg
+    text: Cyclic
+- id: r22-fuel
+  description: Fuel System
+  target: r22fuel
+  imagefolder: /resources/img/r22
+  images:
+  - name: fuel-fuelsensor.jpg
+    thumb: fuel-fuelsensor_tn.jpg
+    text: Fuel Float Sensor
+  - name: fuel-floatsensor2.jpg
+    thumb: fuel-floatsensor2_tn.jpg
+    text: Float Sensor
+  - name: fuel-fuelshutoff2.jpg
+    thumb: fuel-fuelshutoff2_tn.jpg
+    text: Fuel Shutoff
+  - name: fuel-gascolator.jpg
+    thumb: fuel-gascolator_tn.jpg
+    text: Gascolator
+- id: r22-instruments
+  description: Instruments
+  target: r22instruments
+  imagefolder: /resources/img/r22
+  images:
+  - name: instruments-manifoldpressure.jpg
+    thumb: instruments-manifoldpressure_tn.jpg
+    text: Manifold Pressure
+  - name: instruments-airspeed.jpg
+    thumb: instruments-airspeed_tn.jpg
+    text: Airspeed Indicator
+  - name: instruments-carbairtemp.jpg
+    thumb: instruments-carbairtemp_tn.jpg
+    text: Carburetor Air Temperature
+  - name: instruments-carbonmonoxide.jpg
+    thumb: instruments-carbonmonoxide_tn.jpg
+    text: Carbon Monoxide Sensor
+  - name: instruments-commstack.jpg
+    thumb: instruments-commstack_tn.jpg
+    text: Radio Stack
+  - name: instruments-commstack2.jpg
+    thumb: instruments-commstack2_tn.jpg
+    text: Radio Stack
+  - name: instruments-maplight.jpg
+    thumb: instruments-maplight_tn.jpg
+    text: Map Light
+  - name: instruments-r22cockpit.jpg
+    thumb: instruments-r22cockpit_tn.jpg
+    text:
+  - name: instruments-r22cockpit3.jpg
+    thumb: instruments-r22cockpit3_tn.jpg
+    text:
+  - name: instruments-r22cockpit4.jpg
+    thumb: instruments-r22cockpit4_tn.jpg
+    text:
+  - name: instruments-r22cockpit5.jpg
+    thumb: instruments-r22cockpit5_tn.jpg
+    text:
+  - name: instruments-rotorrpm.jpg
+    thumb: instruments-rotorrpm_tn.jpg
+    text: Hall Effect Sensor for Rotor Tach
+  - name: instruments-tachometer.jpg
+    thumb: instruments-tachometer_tn.jpg
+    text: Tachometer
+- id: r22-landing
+  description: Landing Gear
+  target: r22landing
+  imagefolder: /resources/img/r22
+  images:
+  - name: landing-skidshoes.jpg
+    thumb: landing-skidshoes_tn.jpg
+    text: Skid Shoes
+- id: r22-mrsystem
+  description: Main Rotor System
+  target: r22mainrotor
+  imagefolder: /resources/img/r22
+  images:
+  - name: mrsystem-bladeroot.jpg
+    thumb: mrsystem-bladeroot_tn.jpg
+    text: Blade Root
+  - name: mrsystem-droopstop.jpg
+    thumb: mrsystem-droopstop_tn.jpg
+    text: Droop Stop
+  - name: mrsystem-r22mrhub3.jpg
+    thumb: mrsystem-r22mrhub3_tn.jpg
+    text: Swash Plates, Flight Controls
+  - name: mrsystem-r22mrhub2.jpg
+    thumb: mrsystem-r22mrhub2_tn.jpg
+    text: Main Rotor Hub
+  - name: mrsystem-rotorhub.jpg
+    thumb: mrsystem-rotorhub_tn.jpg
+    text: Main Rotor Hub
+  - name: mrsystem-rotorhub2.jpg
+    thumb: mrsystem-rotorhub2_tn.jpg
+    text: Main Rotor Schematic
+  - name: mrsystem-spindlebearings.jpg
+    thumb: mrsystem-spindlebearings_tn.jpg
+    text: Spindle Bearings
+  - name: mrsystem-airfoil2.jpg
+    thumb: mrsystem-airfoil2_tn.jpg
+    text:
+  - name: mrsystem-bladeinterior.jpg
+    thumb: mrsystem-bladeinterior_tn.jpg
+    text:
+  - name: mrsystem-bladetip.jpg
+    thumb: mrsystem-bladetip_tn.jpg
+    text: Blade Tip Assembly
+  - name: mrsystem-bondline.jpg
+    thumb: mrsystem-bondline_tn.jpg
+    text: Bondline
+  - name: mrsystem-bondline2.jpg
+    thumb: mrsystem-bondline2_tn.jpg
+    text: Bondline
+  - name: mrsystem-mainhingebolt.jpg
+    thumb: mrsystem-mainhingebolt_tn.jpg
+    text: Main Hinge Bolt
+  - name: mrsystem-mainrotorhub.jpg
+    thumb: mrsystem-mainrotorhub_tn.jpg
+    text: Main Rotor Hub
+  - name: mrsystem-mainrotorhub2.jpg
+    thumb: mrsystem-mainrotorhub2_tn.jpg
+    text: Main Rotor Hub
+  - name: mrsystem-r22mrhub.jpg
+    thumb: mrsystem-r22mrhub_tn.jpg
+    text: Main Rotor Hub
+  - name: mrsystem-r22vr44.jpg
+    thumb: mrsystem-r22vr44_tn.jpg
+    text: R22 Blade vs. R44
+  - name: mrsystem-r22vr442.jpg
+    thumb: mrsystem-r22vr442_tn.jpg
+    text: R22 Blade vs. R44
+  - name: mrsystem-scissors.jpg
+    thumb: mrsystem-scissors_tn.jpg
+    text: Swashplate Scissors
+  - name: mrsystem-scissors2.jpg
+    thumb: mrsystem-scissors2_tn.jpg
+    text: Swashplate Scissors
+  - name: mrsystem-spar.jpg
+    thumb: mrsystem-spar_tn.jpg
+    text: Blade Spar
+- id: r22-oil
+  description: Oil System
+  target: r22oilsyst
+  imagefolder: /resources/img/r22
+  images:
+  - name: oil-dipstick.jpg
+    thumb: oil-dipstick_tn.jpg
+    text: Dipstick
+  - name: oil-oiltemp.jpg
+    thumb: oil-oiltemp_tn.jpg
+    text: Oil Temperature
+  - name: oil-oiltemp2.jpg
+    thumb: oil-oiltemp2_tn.jpg
+    text: Oil Temperature
+  - name: oil-r22pressureswitch.jpg
+    thumb: oil-r22pressureswitch_tn.jpg
+    text: Oil Pressure Switch
+- id: r22-pitot
+  description: Pitot-Static System
+  target: r22pitot
+  imagefolder: /resources/img/r22
+  images:
+  - name: pitot-staticport.jpg
+    thumb: pitot-staticport_tn.jpg
+    text: Static Port
+- id: r22-powerplant
+  description: Powerplant
+  target: r22powerplant
+  imagefolder: /resources/img/r22
+  images:
+  - name: powerplant-0360.jpg
+    thumb: powerplant-0360_tn.jpg
+    text: Engine, Forward Left Side
+  - name: powerplant-03601.jpg
+    thumb: powerplant-03601_tn.jpg
+    text: Engine, Forward Left Side
+  - name: powerplant-03602.jpg
+    thumb: powerplant-03602_tn.jpg
+    text: Engine, Forward Right Side
+  - name: powerplant-carb.jpg
+    thumb: powerplant-carb_tn.jpg
+    text: Inside of Carburetor
+  - name: powerplant-carb2.jpg
+    thumb: powerplant-carb2_tn.jpg
+    text: Inside of Carburetor
+  - name: powerplant-crankshaft.jpg
+    thumb: powerplant-crankshaft_tn.jpg
+    text: Crankshaft
+  - name: powerplant-cylinderhead10.jpg
+    thumb: powerplant-cylinderhead10_tn.jpg
+    text: Cylinder Head
+  - name: ppowerplant-valve.jpg
+    thumb: powerplant-valve_tn.jpg
+    text: Valve
+  - name: powerplant-airbox.jpg
+    thumb: powerplant-airbox_tn.jpg
+    text: Airbox
+  - name: powerplant-airintake.jpg
+    thumb: powerplant-airintake_tn.jpg
+    text: Air Intake
+  - name: powerplant-cat.jpg
+    thumb: powerplant-cat_tn.jpg
+    text: Carburetor Temperature Probe
+  - name: powerplant-cht.jpg
+    thumb: powerplant-cht_tn.jpg
+    text: Cylinder Head Temperature Probe
+  - name: powerplant-cylinderhead.jpg
+    thumb: powerplant-cylinderhead_tn.jpg
+    text: Cylinder Head
+  - name: powerplant-cylinderhead2.jpg
+    thumb: powerplant-cylinderhead2_tn.jpg
+    text: Cylinder Head
+  - name: powerplant-cylinderhead3.jpg
+    thumb: powerplant-cylinderhead3_tn.jpg
+    text: Cylinder Head
+  - name: powerplant-cylinderhead4.jpg
+    thumb: powerplant-cylinderhead4_tn.jpg
+    text: Cylinder Head
+  - name: powerplant-cylinderhead5.jpg
+    thumb: powerplant-cylinderhead5_tn.jpg
+    text: Cylinder Head
+  - name: powerplant-cylinderhead6.jpg
+    thumb: powerplant-cylinderhead6_tn.jpg
+    text: Cylinder Head
+  - name: powerplant-cylinderhead7.jpg
+    thumb: powerplant-cylinderhead7_tn.jpg
+    text: Cylinder Head
+  - name: powerplant-cylinderhead8.jpg
+    thumb: powerplant-cylinderhead8_tn.jpg
+    text: Cylinder Head
+  - name: powerplant-cylinderhead9.jpg
+    thumb: powerplant-cylinderhead9_tn.jpg
+    text: Cylinder Head
+  - name: powerplant-drive-flywheel.jpg
+    thumb: powerplant-drive-flywheel_tn.jpg
+    text: Starter Ring Gear
+  - name: powerplant-drive-flywheel2.jpg
+    thumb: powerplant-drive-flywheel2_tn.jpg
+    text: Starter Ring Gear
+  - name: powerplant-magneto.jpg
+    thumb: powerplant-magneto_tn.jpg
+    text: Magneto
+  - name: powerplant-manifoldpressure.jpg
+    thumb: powerplant-manifoldpressure_tn.jpg
+    text: Manifold Pressure Gauge
+  - name: powerplant-mixture.jpg
+    thumb: powerplant-mixture_tn.jpg
+    text: Mixture Control
+  - name: powerplant-o360.jpg
+    thumb: powerplant-o360_tn.jpg
+    text:
+  - name: powerplant-o360front.jpg
+    thumb: powerplant-o360front_tn.jpg
+    text:
+  - name: powerplant-o360left.jpg
+    thumb: powerplant-o360left_tn.jpg
+    text:
+  - name: powerplant-o360left2.jpg
+    thumb: powerplant-o360left2_tn.jpg
+    text:
+  - name: powerplant-o360rear.jpg
+    thumb: powerplant-o360rear_tn.jpg
+    text:
+  - name: powerplant-o360right2.jpg
+    thumb: powerplant-o360right2_tn.jpg
+    text:
+  - name: powerplant-o360top.jpg
+    thumb: powerplant-o360top_tn.jpg
+    text:
+  - name: powerplant-sparkplug.jpg
+    thumb: powerplant-sparkplug_tn.jpg
+    text:
+  - name: powerplant-squirrelcage.jpg
+    thumb: powerplant-squirrelcage_tn.jpg
+    text: Squirrel Cage
+  - name: powerplant-throttlelinkage.jpg
+    thumb: powerplant-throttlelinkage_tn.jpg
+    text: Throttle Linkage

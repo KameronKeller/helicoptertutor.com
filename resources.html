@@ -1,0 +1,81 @@
+---
+layout: default
+Title: Resources at HelicopterTutor
+---
+<div class="container white_container">
+  <div class="row">
+    <div class="col-md-12">
+      <!-- Nav tabs -->
+      <ul class="nav nav-tabs" role="tablist">
+        <li role="presentation" class="active"><a href="#tools" aria-controls="tools" role="tab" data-toggle="tab"><span class="glyphicon glyphicon-wrench"></span> Tools</a></li>
+        <li role="presentation"><a href="#vfr" aria-controls="vfr" role="tab" data-toggle="tab"><span class="glyphicon glyphicon-user"></span> All Pilots</a></li>
+        <li role="presentation"><a href="#instrument" aria-controls="instrument" role="tab" data-toggle="tab"><span class="glyphicon glyphicon-scale"></span> Instrument</a></li>
+        <li role="presentation"><a href="#cfi" aria-controls="cfi" role="tab" data-toggle="tab"><span class="glyphicon glyphicon-pencil"></span> Flight Instructors</a></li>
+      </ul>
+    </div>
+  </div>
+  <!-- Tab panes -->
+  <div class="tab-content accident_tabs">
+    <div role="tabpanel" class="tab-pane active" id="tools">
+      {% include_relative _includes/handouts/tools/logbook.html %}
+    </div><!-- /tabpanel -->
+
+    <div role="tabpanel" class="tab-pane" id="vfr">
+      <div class="row">
+        <div class="col-md-12"><h1 class="text-center">All Pilot Certification Levels</h1></div>
+      </div>
+      <div class="well">
+        {% include_relative _includes/handouts/vfr/airspace.html %}
+        <hr>
+        {% include_relative _includes/handouts/vfr/aeromedical.html %}
+      </div><!-- /well -->
+
+    </div><!-- /tabpanel -->
+
+    <div role="tabpanel" class="tab-pane" id="instrument">
+      <div class="row">
+        <div class="col-md-12"><h1 class="text-center">Instrument</h1></div>
+      </div>
+      <div class="well">
+        {% include_relative _includes/handouts/ifr/gpsoperation.html %}
+      </div><!-- /well -->
+    </div><!-- /tabpanel -->
+    <div role="tabpanel" class="tab-pane" id="cfi">
+      <div class="row">
+        <div class="col-md-12"><h1 class="text-center">Flight Instructors</h1></div>
+      </div>
+      <div class="well">
+        {% include_relative _includes/handouts/cfi/endorsementguide.html %}
+        <hr>
+        {% include_relative _includes/handouts/cfi/iacraguide.html %}
+        <hr>
+        {% include_relative _includes/handouts/cfi/lessonplans.html %}
+        <hr>
+        {% include_relative _includes/handouts/cfi/poa.html %}
+      </div><!-- /well -->
+    </div><!-- /tabpanel -->
+
+  </div><!-- /tabcontent -->
+</div><!-- /container -->
+
+<script type="text/javascript"> <!-- magnificPopup Gallery -->
+$('.popup-gallery').each(function () {
+  $(this).magnificPopup({
+    delegate: 'a',
+    type: 'image',
+    tLoading: 'Loading image #%curr%...',
+    mainClass: 'mfp-img-mobile',
+    gallery: {
+      enabled: true,
+      navigateByImgClick: true,
+      preload: [0,1] // Will preload 0 - before current, and 1 after the current image
+    },
+    image: {
+      tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
+      titleSrc: function(item) {
+        return item.el.attr('title');
+      }
+    },
+  });
+});
+</script><!-- /magnificPopup Gallery -->

@@ -1,0 +1,29 @@
+- id: turbine-comp
+  description: Turbine Engine Components
+  target: turbinecomp
+  imagefolder: /resources/img/misc/powerplant
+  images:
+  - name: turbine1.jpg
+    thumb: turbine1_tn.jpg
+    text:
+  - name: turbine2.jpg
+    thumb: turbine2_tn.jpg
+    text:
+  - name: turbine3.jpg
+    thumb: turbine3_tn.jpg
+    text:
+  - name: turbine4.jpg
+    thumb: turbine4_tn.jpg
+    text:
+  - name: turbine5.jpg
+    thumb: turbine5_tn.jpg
+    text:
+  - name: turbine6.jpg
+    thumb: turbine6_tn.jpg
+    text:
+  - name: turbine7.jpg
+    thumb: turbine7_tn.jpg
+    text:
+  - name: turbine8.jpg
+    thumb: turbine8_tn.jpg
+    text:
