@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HelicopterTutor</title>
+    <style>
+        /* Reset some default styles */
+        body, html {
+            font-family: "Arial";
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Style for the header section */
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* Style for the search bar */
+        .search-bar {
+            max-width: 60%; /* Take up 75% of the webpage */
+            margin: 0 auto;
+            padding: 20px; /* Increase padding to make it taller */
+            display: flex; /* Make it a flex container */
+            justify-content: center; /* Center the input horizontally */
+        }
+
+        /* Style for the input */
+        .search-bar input {
+            width: 100%; /* Take up the entire width of the container */
+            padding: 10px; /* Add padding to the input */
+            height: 40px;
+            font-size: 18px;
+            border-radius: 25px;
+            border: 0;
+        }
+
+        .search-bar input::placeholder {
+            color: black; /* Change the color to gray or any other color you prefer */
+        }
+
+        /* Style for the gallery section */
+        .gallery {
+            text-align: center; /* Center the images horizontally */
+            padding: 20px;
+        }
+
+        /* Style for individual gallery items */
+        .gallery-item {
+            margin: 10px;
+            border: 1px solid #ccc;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+            transition: transform 0.2s ease-in-out;
+            display: inline-block; /* Display images side by side */
+            width: calc(33.33% - 20px); /* Adjust the width to fit 3 images per row with spacing */
+        }
+
+        .gallery-item img {
+            max-width: 100%; /* Make the images smaller by constraining their width */
+        }
+
+        .gallery-item:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>HelicopterTutor</h1>
+        <div class="search-bar">
+            <!-- Your search bar HTML goes here -->
+            <input type="text" placeholder="Main rotor">
+        </div>
+    </header>
+
+    <section class="gallery">
+        <!-- Gallery images go here -->
+        <div class="gallery-item">
+            <img src="https://www.helicoptertutor.com/resources/img/r22/mrsystem-r22mrhub3.jpg" alt="Image 1">
+        </div>
+        <div class="gallery-item">
+            <img src="https://www.helicoptertutor.com/resources/img/r22/mrsystem-rotorhub.jpg" alt="Image 2">
+        </div>
+        <div class="gallery-item">
+            <img src="https://www.helicoptertutor.com/resources/img/r22/mrsystem-rotorhub2.jpg" alt="Image 3">
+        </div>
+        <div = class="gallery-item">
+            <img src="https://www.helicoptertutor.com/resources/img/r22/mrsystem-droopstop.jpg" alt="Image 4">
+        </div>
+        <!-- Add more gallery items as needed -->
+    </section>
+</body>
+</html>
